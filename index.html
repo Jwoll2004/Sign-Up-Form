@@ -18,14 +18,49 @@
 
     <div class="content">
         <div class="content-intro">
-            <h1>Dunder Mifflin is Hiring!</h1>
-            <p>Register to become a member of Dunder Mifflin</p>
+            <h1>Dunder Mifflin - Scranton Branch is Hiring!</h1>
+            <p>Register to become a part of the Dunder Mifflin - Scranton Family!</p>
         </div>
 
         <div class="form">
             <form action="" method="post" id="form">
-                <div class="form-wrap">
+
+                <div class="formrow">
+                    <div class="inputcontrol">
+                        <label for="first_name">FIRST NAME*</label>
+                        <input type="text" id="first_name" placeholder="Michael" required pattern="[A-Za-z]+">
+                    </div>
+                    <div class="inputcontrol">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name" placeholder="Scott" pattern="[A-Za-z]+">
+                    </div>
                     
+                </div>
+
+                <div class="formrow">
+                    <div class="inputcontrol">
+                        <label for="email">EMAIL*</label>
+                        <input type="email" id="email" placeholder="example@example.com" required>
+                    </div>
+                    <div class="inputcontrol">
+                        <label for="phoneno">PHONE NUMBER*</label>
+                        <input type="tel" id="phoneno" placeholder="123-456-7890" required pattern="\d{3}-\d{3}-\d{4}">
+                    </div>
+                </div>
+
+                <div class="formrow">
+                    <div class="inputcontrol">
+                        <label for="password">PASSWORD*</label>
+                        <input type="password" id="password" placeholder="Password" required>
+                    </div>
+        
+                    <div class="inputcontrol">
+                        <label for="confirm_password">CONFIRM PASSWORD*</label>
+                        <input type="password" id="confirm_password" placeholder="Confirm Password" required>
+                    </div>
+                </div>
+                <div class="req">
+                    * Required Fields
                 </div>
             </form>
         </div>
