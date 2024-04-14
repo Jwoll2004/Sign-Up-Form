@@ -8,7 +8,7 @@ body {
 
 .sidebar{
     background-image: url(images/bg.jpeg);
-    background-position: -400px 0;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 40%;
